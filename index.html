@@ -4,57 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OVER BLOX</title>
+
 <style>
-body{
-font-family:tahoma;
-background:#0f172a;
-color:white;
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:tahoma;
 }
-header{
-background:linear-gradient(135deg,#ff6b00,#8b5cf6);
-padding:30px;
-text-align:center;
-}
-.card{
-background:#1e293b;
-margin:20px;
-padding:20px;
-border-radius:15px;
-}
-button{
-background:#ff6b00;
+
+body{
+background:#081225;
 color:white;
-border:none;
-padding:10px 15px;
-border-radius:10px;
 }
-</style>
-</head>
-<body>
 
-<header>
-<h1>OVER BLOX</h1>
-<p>فروش فروت های Blox Fruits</p>
-</header>
+header{
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(135deg,#ff6b00,#8b5cf6);
+animation: glow 3s infinite alternate;
+}
 
-<div class="card">
-<h2>Dragon Fruit</h2>
-<p>قیمت: 5000 Robux</p>
-<button>خرید</button>
-</div>
+@keyframes glow{
+from{filter:brightness(100%);}
+to{filter:brightness(120%);}
+}
 
-<div class="card">
-<h2>Kitsune Fruit</h2>
-<p>قیمت: 4500 Robux</p>
-<button>خرید</button>
-</div>
+.logo{
+font-size:55px;
+font-weight:bold;
+}
 
-<div class="card">
-<h2>Leopard Fruit</h2>
-<p>قیمت: 3000 Robux</p>
-<button>خرید</button>
-</div>
+.owner{
+margin-top:10px;
+font-size:20px;
+}
 
-</body>
-</html>
+.subtitle{
+margin-top:15px;
+font-size:22px;
+}
+
+.container{
+padding:20px;
+}
+
+.card{
+background:#14233f
