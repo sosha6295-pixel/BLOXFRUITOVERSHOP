@@ -6,7 +6,6 @@
 <title>OVER BLOX SHOP</title>
 
 <style>
-
 *{
 margin:0;
 padding:0;
@@ -15,67 +14,43 @@ font-family:tahoma;
 }
 
 body{
-background:#070b14;
+background:#0a0f1f;
 color:white;
-overflow-x:hidden;
 }
 
 header{
+background:linear-gradient(135deg,#7b2cff,#00d4ff);
 text-align:center;
-padding:50px 20px;
-background:linear-gradient(135deg,#7b2cff,#00ff88);
-}
-
-.hero-img{
-width:220px;
-height:220px;
-border-radius:50%;
-border:4px solid #fff;
-box-shadow:0 0 40px #8b5cf6;
-animation:glow 2s infinite alternate;
-}
-
-@keyframes glow{
-from{
-box-shadow:0 0 20px #8b5cf6;
-}
-to{
-box-shadow:0 0 50px #00ff88;
-}
+padding:60px 20px;
 }
 
 .logo{
 font-size:55px;
 font-weight:bold;
-margin-top:20px;
-text-shadow:0 0 20px #fff;
+margin-bottom:10px;
 }
 
 .owner{
-margin-top:10px;
 font-size:22px;
+margin-bottom:15px;
 }
 
 .subtitle{
-margin-top:15px;
-font-size:20px;
+font-size:18px;
 }
 
-.buttons{
+.btns{
 margin-top:25px;
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
 }
 
 .btn{
+display:inline-block;
+margin:5px;
 padding:15px 25px;
 border-radius:15px;
 text-decoration:none;
 font-weight:bold;
 color:white;
-transition:.3s;
 }
 
 .buy{
@@ -86,50 +61,33 @@ background:#229ED9;
 background:#7b2cff;
 }
 
-.btn:hover{
-transform:scale(1.08);
-}
-
 .stats{
 display:flex;
 justify-content:center;
+flex-wrap:wrap;
 gap:15px;
 padding:25px;
-flex-wrap:wrap;
 }
 
 .stat{
-background:#101827;
+background:#111827;
 padding:20px;
-width:150px;
 border-radius:20px;
+width:140px;
 text-align:center;
-box-shadow:0 0 15px rgba(255,255,255,.08);
 }
 
 .container{
-padding:20px;
-max-width:1200px;
+max-width:1000px;
 margin:auto;
+padding:20px;
 }
 
 .card{
-background:#101827;
-border-radius:20px;
+background:#111827;
 padding:20px;
-margin-bottom:25px;
-transition:.3s;
-box-shadow:0 0 15px rgba(255,255,255,.05);
-}
-
-.card:hover{
-transform:translateY(-5px);
-}
-
-.card img{
-width:100%;
-border-radius:15px;
-margin-bottom:15px;
+border-radius:20px;
+margin-bottom:20px;
 }
 
 .card h2{
@@ -137,54 +95,36 @@ margin-bottom:10px;
 }
 
 .price{
-color:#ffd700;
+color:gold;
 font-size:24px;
-margin-bottom:15px;
+margin-bottom:10px;
 }
 
-.desc{
-line-height:2;
-color:#d1d5db;
-}
-
-.buy-product{
+.buy-btn{
 display:inline-block;
-margin-top:15px;
-padding:12px 25px;
 background:#00ff88;
 color:black;
-font-weight:bold;
-border-radius:12px;
+padding:10px 20px;
+border-radius:10px;
 text-decoration:none;
+font-weight:bold;
+margin-top:10px;
 }
 
 .info{
+background:#111827;
 margin:20px;
 padding:25px;
-background:#101827;
 border-radius:20px;
-line-height:2.2;
-}
-
-.telegram-box{
-margin:20px;
-padding:25px;
-background:#0f172a;
-border-radius:20px;
-text-align:center;
-}
-
-.telegram-box h2{
-margin-bottom:15px;
+line-height:2;
 }
 
 footer{
-background:#0b1120;
-padding:30px;
 text-align:center;
+padding:25px;
+background:#080c17;
 margin-top:30px;
 }
-
 </style>
 </head>
 
@@ -192,23 +132,21 @@ margin-top:30px;
 
 <header>
 
-<img src="logo.png" class="hero-img">
-
 <div class="logo">OVER BLOX</div>
 
 <div class="owner">Owner : Solo Sosha</div>
 
 <div class="subtitle">
-فروش فروت های Blox Fruits با پشتیبانی سریع
+فروش فروت های Blox Fruits
 </div>
 
-<div class="buttons">
+<div class="btns">
 
-<a href="https://t.me/sosha_solo" target="_blank" class="btn buy">
+<a href="https://t.me/sosha_solo" class="btn buy">
 🛒 خرید از تلگرام
 </a>
 
-<a href="https://t.me/overbloxfruit" target="_blank" class="btn channel">
+<a href="https://t.me/overbloxfruit" class="btn channel">
 📢 کانال تلگرام
 </a>
 
@@ -238,99 +176,51 @@ margin-top:30px;
 <div class="container">
 
 <div class="card">
-<img src="https://static.wikia.nocookie.net/blox-fruits/images/1/16/DragonFruit.png">
-<h2>Dragon Fruit</h2>
+<h2>🐉 Dragon Fruit</h2>
 <div class="price">5000 Robux</div>
-<div class="desc">
-قوی ترین فروت بازی با قدرت اژدها
-</div>
-<a href="https://t.me/sosha_solo" class="buy-product">خرید</a>
+<p>قوی ترین فروت بازی</p>
+<a href="https://t.me/sosha_solo" class="buy-btn">خرید</a>
 </div>
 
 <div class="card">
-<img src="https://static.wikia.nocookie.net/blox-fruits/images/8/8e/KitsuneFruit.png">
-<h2>Kitsune Fruit</h2>
+<h2>🦊 Kitsune Fruit</h2>
 <div class="price">4000 Robux</div>
-<div class="desc">
-فروت افسانه ای روباه نه دم
-</div>
-<a href="https://t.me/sosha_solo" class="buy-product">خرید</a>
+<p>فروت افسانه ای روباه نه دم</p>
+<a href="https://t.me/sosha_solo" class="buy-btn">خرید</a>
 </div>
 
 <div class="card">
-<img src="https://static.wikia.nocookie.net/blox-fruits/images/3/38/LeopardFruit.png">
-<h2>Leopard Fruit</h2>
+<h2>🐆 Leopard Fruit</h2>
 <div class="price">3000 Robux</div>
-<div class="desc">
-یکی از محبوب ترین فروت های PvP
-</div>
-<a href="https://t.me/sosha_solo" class="buy-product">خرید</a>
+<p>مناسب PvP</p>
+<a href="https://t.me/sosha_solo" class="buy-btn">خرید</a>
 </div>
 
 <div class="card">
-<img src="https://static.wikia.nocookie.net/blox-fruits/images/4/48/DoughFruit.png">
-<h2>Dough Fruit</h2>
+<h2>🍩 Dough Fruit</h2>
 <div class="price">2500 Robux</div>
-<div class="desc">
-قدرت عالی برای مبارزه
+<p>قدرت عالی برای مبارزه</p>
+<a href="https://t.me/sosha_solo" class="buy-btn">خرید</a>
 </div>
-<a href="https://t.me/sosha_solo" class="buy-product">خرید</a>
-</div>
-
-</div>
-
-<div class="telegram-box">
-
-<h2>ارتباط با OVER BLOX</h2>
-
-<p>برای خرید مستقیم روی دکمه زیر کلیک کنید.</p>
-
-<br>
-
-<a href="https://t.me/sosha_solo" class="btn buy">
-🛒 خرید از تلگرام
-</a>
-
-<a href="https://t.me/overbloxfruit" class="btn channel">
-📢 ورود به کانال
-</a>
 
 </div>
 
 <div class="info">
-
-<h2>چرا OVER BLOX ؟</h2>
-
+<h2>چرا OVER BLOX؟</h2>
 <br>
-
-✅ پشتیبانی سریع
-
-<br>
-
 ✅ خرید آسان از تلگرام
-
 <br>
-
+✅ پشتیبانی سریع
+<br>
+✅ فروش انواع فروت
+<br>
 ✅ پاسخگویی 24 ساعته
-
-<br>
-
-✅ فروش انواع فروت های Blox Fruits
-
-<br>
-
-✅ محیط امن و ساده
-
 </div>
 
 <footer>
-
 OVER BLOX © 2026
-
 <br><br>
-
-Telegram : @sosha_solo
-
+Telegram: @overbloxfruit
 </footer>
 
 </body>
